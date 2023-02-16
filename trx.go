@@ -13,7 +13,7 @@ type Result struct {
 }
 
 type ResultSummary struct {
-	Conters []struct {
+	Conters struct {
 		Total              string `xml:"total,attr"`
 		Executed           string `xml:"executed,attr"`
 		Failed             string `xml:"failed,attr"`
