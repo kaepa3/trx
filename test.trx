@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="bc374584-6e2d-4424-804b-f1cc0cacf1ae" name="yamaz@DESKTOP-MEL1FLG 2023-02-16 14:47:24" runUser="DESKTOP-MEL1FLG\yamaz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-02-16T14:47:24.0593127+09:00" queuing="2023-02-16T14:47:24.0593130+09:00" start="2023-02-16T14:47:22.5104326+09:00" finish="2023-02-16T14:47:24.0649294+09:00" />
+  <TestSettings name="default" id="63a95bfb-9188-48aa-9ed7-50cf24979c21">
+    <Deployment runDeploymentRoot="yamaz_DESKTOP-MEL1FLG_2023-02-16_14_47_24" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c1162558-2dbc-4f72-94c6-553c211d2b0e" testId="6b3d3245-424d-43d6-8b45-d4dfda3da7e9" testName="ProcessTest2" computerName="DESKTOP-MEL1FLG" duration="00:00:00.0000730" startTime="2023-02-16T14:47:23.7916509+09:00" endTime="2023-02-16T14:47:23.7919954+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c1162558-2dbc-4f72-94c6-553c211d2b0e" />
+    <UnitTestResult executionId="0dc73bb2-3c1e-42eb-8959-b8e6c949fb0c" testId="800ede02-559e-41d2-a98e-f8a60120db48" testName="ProcessTest" computerName="DESKTOP-MEL1FLG" duration="00:00:00.0043834" startTime="2023-02-16T14:47:23.7618714+09:00" endTime="2023-02-16T14:47:23.7787999+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dc73bb2-3c1e-42eb-8959-b8e6c949fb0c" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ProcessTest2" storage="d:\jenkins\test\consoleapp1tests\bin\debug\net6.0\consoleapp1tests.dll" id="6b3d3245-424d-43d6-8b45-d4dfda3da7e9">
+      <Execution id="c1162558-2dbc-4f72-94c6-553c211d2b0e" />
+      <TestMethod codeBase="D:\jenkins\test\ConsoleApp1Tests\bin\Debug\net6.0\ConsoleApp1Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="ConsoleApp1.Tests.DummyClassTests" name="ProcessTest2" />
+    </UnitTest>
+    <UnitTest name="ProcessTest" storage="d:\jenkins\test\consoleapp1tests\bin\debug\net6.0\consoleapp1tests.dll" id="800ede02-559e-41d2-a98e-f8a60120db48">
+      <Execution id="0dc73bb2-3c1e-42eb-8959-b8e6c949fb0c" />
+      <TestMethod codeBase="D:\jenkins\test\ConsoleApp1Tests\bin\Debug\net6.0\ConsoleApp1Tests.dll" adapterTypeName="executor://mstestadapter/v2" className="ConsoleApp1.Tests.DummyClassTests" name="ProcessTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6b3d3245-424d-43d6-8b45-d4dfda3da7e9" executionId="c1162558-2dbc-4f72-94c6-553c211d2b0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="800ede02-559e-41d2-a98e-f8a60120db48" executionId="0dc73bb2-3c1e-42eb-8959-b8e6c949fb0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="一覧に存在しない結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="読み込まれたすべての結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="DESKTOP-MEL1FLG" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="DESKTOP-MEL1FLG\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
